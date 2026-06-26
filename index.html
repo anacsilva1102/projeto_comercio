@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cadastro de Produtos</title>
 
     <link rel="stylesheet" href="css/style.css">
+
     <script src="js/script.js" defer></script>
-    
+
 </head>
+
+
 <body>
 
-<h2>Cadastro de Produtos</h2>
 
-<label>Descrição</label>
-<input type="text" id="descricao">
+<h1>Cadastro de Produtos</h1>
 
-<br><br>
 
-<label>Valor Unitário</label>
-<input type="number" id="valor">
+<div id="div-form">
 
-<br><br>
 
-<label>Quantidade</label>
-<input type="number" id="quantidade">
+    <h3>Produto</h3>
 
-<br><br>
 
-<button id="btnAdicionar">Adicionar Produto</button>
+    <label for="descricao">Descrição do Produto</label>
+    <input type="text" id="descricao">
 
-<hr>
 
-<div id="listaProdutos"></div>
+    <label for="valor">Valor Unitário</label>
+    <input type="number" id="valor">
+
+
+    <label for="quantidade">Quantidade</label>
+    <input type="number" id="quantidade">
+
+
+    <button id="btnAdicionar">Adicionar</button>
+
+
+</div>
+
+
+
+<h3>Lista de Produtos</h3>
+
+
+<div id="div-dados">
+
+</div>
+
+
 
 </body>
-</html>>
+
+</html>
