@@ -1,8 +1,10 @@
-const descricao = document.getElementById("descricao");
-const valor = document.getElementById("valor");
-const quantidade = document.getElementById("quantidade");
-const btnAdicionar = document.getElementById("btnAdicionar");
-const listaProdutos = document.getElementById("listaProdutos");
+const descricao = document.querySelector("#descricao");
+const valor = document.querySelector("#valor");
+const quantidade = document.querySelector("#quantidade");
+
+const btnAdicionar = document.querySelector("#btnAdicionar");
+
+const listaProdutos = document.querySelector("#listaProdutos");
 
 let produtos = [];
 
